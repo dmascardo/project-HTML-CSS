@@ -1,0 +1,71 @@
+h1 {
+    color: green;
+}
+
+li {
+    list-style: none;
+}
+
+.html-list {
+    list-style-type: square;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.html-list li {
+    margin: 4px 0;
+}
+
+.css-list {
+    color: blue;
+}
+
+.center-list {
+    width: 50%;
+    margin: 0 auto;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+table.center {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+table.center th,
+table.center td {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    display: block;
+    width: 20%;
+    box-sizing: border-box;
+}
